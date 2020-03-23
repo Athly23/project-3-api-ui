@@ -14,6 +14,9 @@ h1 {
     grid-template-rows: 1fr 1fr;
     grid-gap: 10px;
     align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
     
 }
 
@@ -23,14 +26,20 @@ h1 {
     text-align: center;
     background-color: lightslategray;
     color: whitesmoke;
+    
 }
 
 .characters {
     grid-row: 1;
     grid-column: 2;
+    margin: auto;
 }
 
 img {
+    border: 5px solid lightgray;
+}
+
+button {
     border: 5px solid lightgray;
 }
 /* #grid-body {
