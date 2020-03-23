@@ -44,7 +44,11 @@ let handleClickLeft = (e) => {
     iterator--
     if (iterator < 0) iterator = imageArray.length -1 
     array.setAttribute('src', imageArray[iterator].image)
-    info.textContent = imageArray[iterator].name
+    
+    para1.textContent = imageArray[iterator].name 
+    para2.textContent = imageArray[iterator].status
+    para3.textContent = imageArray[iterator].species
+    para4.textContent = imageArray[iterator].gender
 
     }
 
@@ -58,6 +62,7 @@ let handleClickRight = (e) => {
     iterator++
     if (iterator > imageArray.length -1) iterator = 0;
     array.setAttribute('src', imageArray[iterator].image)
+   
     para1.textContent = imageArray[iterator].name
     para2.textContent = imageArray[iterator].status
     para3.textContent = imageArray[iterator].species
