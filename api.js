@@ -4,7 +4,7 @@ let gallery = document.querySelector(".characters");
 let array = document.querySelector(".character-pics");
 // let info = document.querySelector("p")
 let previous = document.querySelector(".left")
-let currentImage 
+// let currentImage 
 let iterator = 0
 let imageArray
 let info = document.querySelector(".text-container")
